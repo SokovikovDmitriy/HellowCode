@@ -1,10 +1,14 @@
-﻿// По заданному номеру дня недели вывести его название
-Console.Write("Введите номер дня недели - ");
-int day = Convert.ToInt32(Console.ReadLine());
-if (day == 1) Console.WriteLine("Понедельник");
-if (day == 2) Console.WriteLine("Вторник");
-if (day == 3) Console.WriteLine("Среда");
-if (day == 4) Console.WriteLine("Четверг");
-if (day == 5) Console.WriteLine("Пятница");
-if (day == 6) Console.WriteLine("Суббота");
-if (day == 7) Console.WriteLine("Воскресение");
+﻿// Найти максимальное из трех чисел
+int a = new Random().Next(1, 99);
+Console.WriteLine(a);
+int b = new Random().Next(1, 99);
+Console.WriteLine(b);
+int c = new Random().Next(1, 99);
+Console.WriteLine(c);
+int max = a;
+ if (a > max) max = a;
+ if (b > max) max = b;
+ if (c > max) max = c;
+
+ Console.Write("Max = ");
+ Console.WriteLine(max);
