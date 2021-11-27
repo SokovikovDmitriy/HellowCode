@@ -1,8 +1,14 @@
-﻿Console.Write("Ведите число - ");
-string n = Console.ReadLine();
-double m = Convert.ToDouble (n);
+﻿int n = new Random().Next(2, 100);
+Console.WriteLine (n);
+int m = new Random().Next(1, 10);
+Console.WriteLine (m);
 
-double x = m * m;
-Console.Write("Квадрат Вашего числа = ");
-Console.Write(x);
+if (n == m * m)
+{
+    Console.WriteLine("Yes");
+}
 
+else
+{
+    Console.WriteLine("No");
+}
