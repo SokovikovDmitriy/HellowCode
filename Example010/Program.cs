@@ -8,7 +8,9 @@ int index = 0;
 while (index < n)
 {
     if(array[index] == x)
+    {
     Console.WriteLine(index);
+    break;
     index++;
-    
+    }
 }
