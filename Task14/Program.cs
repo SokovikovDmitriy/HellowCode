@@ -1,15 +1,15 @@
 ﻿//Найти третью цифру числа или сообщить, что её нет
 
 Console.Write("input the number - ");
-int x = Convert.ToInt32(Console.ReadLine());
+string stringX = Console.ReadLine();
+int x = Convert.ToInt32(stringX);
 Console.WriteLine();
 
-if (x > 99)
+if (x > 99 || x < -99)
 {
-
-    Console.WriteLine($"{x.ToString()[2]}");
+    Console.WriteLine($"{stringX[2]}");
 }
 else
 {
-    Console.WriteLine("No third namber");
+    Console.WriteLine($"No third namber. {x}");
 }
