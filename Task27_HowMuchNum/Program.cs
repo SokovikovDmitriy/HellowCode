@@ -2,6 +2,6 @@
 Console.Clear();
 
 Console.Write("Enter number - ");
-int A = int.Parse(Console.ReadLine());
+string A = Convert.ToString(Console.ReadLine());
 
-
+Console.WriteLine(A.Length);
