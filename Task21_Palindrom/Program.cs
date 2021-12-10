@@ -1,13 +1,12 @@
 ﻿// Программа проверяет пятизначное число на палиндром.
 
-// 
 Console.Clear();
 
 void FillArray(int[] collection)
 {
     int L = collection.Length;
     int index = 0;
-    // collection[0] > 0;
+    // collection[0]  > 0;
     while (index < L)
     {
         collection[index] = new Random().Next(0, 10);
