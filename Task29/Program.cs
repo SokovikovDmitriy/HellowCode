@@ -4,7 +4,7 @@ Console.Clear();
 Console.Write("Enter number - ");
 int N = int.Parse(Console.ReadLine());
 Console.WriteLine();
-int M = 1;
+double M = 1;
 
 Console.WriteLine($"Mul from 1 to {N}:");
 for (int i = 1; i <= N; i++)
